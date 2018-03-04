@@ -81,9 +81,9 @@ img {
             MEDIA QUERY FOR MOBILE
 ********************************************/
 
-@media (max-width: 600px) {
+@media (min-width: 320px) {
     .search-bar {
-        width: 80%;
+        width: auto ;
     }
     .searchTerm {
         font-family: inherit;
